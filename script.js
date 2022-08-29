@@ -13,8 +13,10 @@ let lastSpace = "";
 let lengthOf = "";
 
 lengthOf = fullName.length;
+
 firstSpace = fullName.indexOf(" ");
 lastSpace = fullName.lastIndexOf(" ");
+
 firstName = fullName.substring(0, firstSpace);
 middleName = fullName.substring(firstSpace, lastSpace);
 lastName = fullName.substring(lastSpace, lengthOf);

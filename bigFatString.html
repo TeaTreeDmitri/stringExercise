@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+<label for="input">Input:</label>
+<input name="input" id="input">
+
+<select name="choice" id="choice">
+    <option value="a">If input is a first name: Make the first character in a name uppercase, and the rest lowercase</option>
+    <option value="b">If input is a full name: Find the first name</option>
+    <option value="c">If input is a full name: Find the length of the first name</option>
+    <option value="d">If input is a full name: Find the middle name start and end position, and the middle name itself in a full name string</option>
+    <option value="e">If input is a filename: Check if a filename is .png or .jpg</option>
+    <option value="f">If input is a password: Hide a password with the correct number of *s</option>
+    <option value="g">With any input: Make the third character uppercase</option>
+    <option value="h">With any input: Make a character uppercase, if it follows a space or a hyphen</option>
+</select>
+
+<input id="output" readonly>
+</div>
+<button id="generateOutput">generate output</button>
+
+    <script src="bigFatString.js"></script>
+</body>
+</html>
