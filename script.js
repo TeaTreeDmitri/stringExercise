@@ -19,6 +19,7 @@ firstName = fullName.substring(0, firstSpace);
 middleName = fullName.substring(firstSpace, lastSpace);
 lastName = fullName.substring(lastSpace, lengthOf);
 
-console.log("First Name:", firstName);
-console.log("Middle Name:", middleName);
-console.log("Last Name:", lastName);
+
+console.log("First Name:", firstName.trim());
+console.log("Middle Name:", middleName.trim());
+console.log("Last Name:", lastName.trim());
